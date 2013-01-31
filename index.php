@@ -5,7 +5,7 @@
 
 $__version__  = '2.1.11';
 $__password__ = '5942059420';
-$__timeout__  = 20;
+$__timeout__  = 200;
 
 function decode_request($data) {
     list($headers_length) = array_values(unpack('n', substr($data, 0, 2)));
